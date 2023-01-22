@@ -10,19 +10,18 @@ body{
 
 #title {
     text-align: center;
-    border: red;
+    
 }
 
 #img-div {
     background-color: #fff;
     margin-bottom: 20px;
     width: 100%;
-    border: pink;   
+    
 }
 
 #img-caption {
     font-size: 1.2rem;
-    border-right: 2px solid green;
     text-align: center;
 }
 
