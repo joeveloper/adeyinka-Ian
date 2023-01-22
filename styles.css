@@ -13,14 +13,11 @@ body{
     border: red;
 }
 
-
 #img-div {
     background-color: #fff;
     margin-bottom: 20px;
     width: 100%;
-    border: pink;
-    
-    
+    border: pink;   
 }
 
 #img-caption {
@@ -29,11 +26,14 @@ body{
     text-align: center;
 }
 
+img{
+  display: block;
+}
+
 #image {
     height: auto;
     width: 90%;
     max-width: 100%;
-    
 }
 
 #tribute-link {
