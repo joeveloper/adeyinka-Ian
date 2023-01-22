@@ -4,30 +4,48 @@ body{
     line-height: 1.5;
     text-align: center;
     color: #333;
-    margin: 0;
+    
     }
 
 
 #title {
     text-align: center;
+    border: red;
 }
+
 
 #img-div {
     background-color: #fff;
     margin-bottom: 20px;
+    width: 100%;
+    border: pink;
+    
+    
 }
 
 #img-caption {
-    font-size: .5rem;
-    
+    font-size: 1.2rem;
+    border-right: 2px solid green;
+    text-align: center;
 }
 
 #image {
     height: auto;
+    width: 90%;
     max-width: 100%;
+    
 }
 
 #tribute-link {
     text-decoration: none;
     color: grey;
+    text-align: center;
 }
+
+/* MEDIA QUERIES*/
+
+@media screen and (max-width: 480px) {
+    #image {
+        max-width: 100%;     
+    }
+  }
